@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Test suite" parallel="tests">
+
+    <test name="test 1">
+        <classes>
+            <class name="com.alfabank.qapp.android.tests.authorization.AuthorizationTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite>
